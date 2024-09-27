@@ -22,16 +22,6 @@
     <string>1.0.0</string>
     <key>CFBundleSignature</key>
     <string>????</string>
-    <key>CFBundleURLTypes</key>
-    <array>
-      <dict>
-        <key>CFBundleURLSchemes</key>
-        <array>
-          <string>myapp</string>
-          <string>com.anonymous.HandControlledTicTacToe</string>
-        </array>
-      </dict>
-    </array>
     <key>CFBundleVersion</key>
     <string>1</string>
     <key>LSRequiresIPhoneOS</key>
@@ -43,6 +33,8 @@
       <key>NSAllowsLocalNetworking</key>
       <true/>
     </dict>
+    <key>NSCameraUsageDescription</key>
+    <string>Die Kamera wird benötigt, um Fotos aufzunehmen.</string>
     <key>NSUserActivityTypes</key>
     <array>
       <string>$(PRODUCT_BUNDLE_IDENTIFIER).expo.index_route</string>
@@ -73,5 +65,15 @@
     <string>Automatic</string>
     <key>UIViewControllerBasedStatusBarAppearance</key>
     <false/>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>myapp</string>
+          <string>com.anonymous.HandControlledTicTacToe</string>
+        </array>
+      </dict>
+    </array>
   </dict>
 </plist>
